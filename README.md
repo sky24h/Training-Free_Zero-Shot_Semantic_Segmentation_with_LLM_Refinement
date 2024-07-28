@@ -40,7 +40,7 @@ CUDA_VISIBLE_DEVICES=0 python inference_dataset.py --config ./configs/COCO-81.ya
 | --reset | Removes the previous results |
 | --draw_bbox | Visualizes the bounding box of the detected objects |
 | --debug | Runs only the first 5% of the dataset |
-| --use_lower_vram | if you have a low GPU memory, you can use this flag to reduce the memory requirement of the model |
+| --use_lower_vram | use this flag to reduce the memory requirement of the model |
 
 
 | Model Variant | GPU Memory Requirement |
