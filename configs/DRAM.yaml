@@ -1,0 +1,11 @@
+Name: DRAM
+box_threshold: 0.18
+text_threshold: 0.15
+iou_threshold: 0.8
+example_size: 0
+input_dir: "../../datasets/segmentation/DRAM_processed/val_imgs"
+gt_dir: "../../datasets/segmentation/DRAM_processed/val_masks"
+label_list: "background, bird, boat, bottle, cat, chair, cow, dog, horse, person, potted-plant, sheep"
+mask_ids: [0, 3, 4, 5, 8, 9, 10, 12, 13, 15, 16, 17]
+llm_model: "Meta-Llama-3-8B-Instruct" # supported models: ["gpt-4o", "gpt-4-turbo", "gpt-4o-mini", "gpt-4-0125-preview", "gpt-4-1106-preview", "gpt-3.5-turbo-0125", "Meta-Llama-3-8B-Instruct"], the reported results in the paper are based on "gpt-4-0125-preview"
+api_key: "Insert your API key here if you want to use OpenAI API"
