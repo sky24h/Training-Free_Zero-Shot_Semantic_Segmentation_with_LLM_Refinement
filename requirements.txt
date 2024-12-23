@@ -18,4 +18,4 @@ openpyxl
 -e ./pretrained-models/sam-hq/
 -e ./pretrained-models/GroundingDINO/
 -e ./pretrained-models/recognize-anything/
-transformers==4.42.4 # Somehow, we needed to put transformers after GroundingDINO.
+transformers==4.47.1 # Somehow, we needed to put transformers after GroundingDINO.
